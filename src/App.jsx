@@ -1,8 +1,10 @@
 import "./App.css";
-import Homepage from "./Homepage";
-import LeaderboardPage from "./LeaderboardPage";
-import LoginPage from "./LoginPage";
-import RegisterPage from "./RegisterPage";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import LeaderboardPage from "./Routes/LeaderboardPage";
+import Homepage from "./Routes/Homepage";
+import LoginPage from "./Routes/LoginPage";
+import RegisterPage from "./Routes/RegisterPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

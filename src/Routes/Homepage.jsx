@@ -1,11 +1,11 @@
-import Navbar from "./Components/Navbar";
-import CitTitle from "./Components/CitTitle";
-import About from "./Components/About";
-import Schedule from "./Components/Schedule";
-import Faq from "./Components/Faq";
-import Contact from "./Components/Contact";
-import Sponsor from "./Components/Sponsor";
-import Prizes from "./Components/Prizes";
+import Navbar from "../Components/Navbar";
+import CitTitle from "../Components/CitTitle";
+import About from "../Components/About";
+import Schedule from "../Components/Schedule";
+import Faq from "../Components/Faq";
+import Contact from "../Components/Contact";
+import Sponsor from "../Components/Sponsor";
+import Prizes from "../Components/Prizes";
 
 const Homepage = () => {
   return (
