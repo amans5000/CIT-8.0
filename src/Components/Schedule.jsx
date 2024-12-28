@@ -1,6 +1,9 @@
+import styles from "./styleModules/Schedule.module.css";
 const Schedule = () => {
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center align-items-center vh-100 py-5">
+    <div
+      className={`container-fluid d-flex flex-column justify-content-center align-items-center${styles.scheduleContainer}`}
+    >
       <div className="row w-100">
         <div className="col-12 col-md-5 mb-4 d-flex justify-content-center">
           <img

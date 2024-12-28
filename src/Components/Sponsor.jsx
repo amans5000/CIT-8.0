@@ -1,6 +1,10 @@
+import styles from "./styleModules/Sponsor.module.css";
+
 const Sponsor = () => {
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center align-items-center vh-100">
+    <div
+      className={`container-fluid d-flex flex-column justify-content-center align-items-center vh-100 ${styles.sponsorContainer}`}
+    >
       <h2>Event Sponsors</h2>
       <div className="d-flex justify-content-center mt-4">
         <img

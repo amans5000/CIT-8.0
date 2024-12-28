@@ -4,19 +4,24 @@ import Faq from "../Components/Faq";
 import Contact from "../Components/Contact";
 import Sponsor from "../Components/Sponsor";
 import Prizes from "../Components/Prizes";
-import TitlePage from "../Components/TitlePage";
+import Navbar from "../Components/Navbar";
+import styles from "../Components/styleModules/Homepage.module.css";
+import CitTitle from "../Components/CitTitle";
+import FAQTitle from "../Components/FAQTitle";
 
 const Homepage = () => {
   return (
-    <>
-      <TitlePage />
+    <div className={styles.HomepageContainer}>
+      <Navbar />
+      <CitTitle />
       <About />
       <Schedule />
       <Prizes />
+      <FAQTitle />
       <Faq />
       <Sponsor />
       <Contact />
-    </>
+    </div>
   );
 };
 

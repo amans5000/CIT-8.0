@@ -1,17 +1,20 @@
+import styles from "./styleModules/About.module.css";
 const About = () => {
   return (
-    <div className="container-fluid d-flex flex-column justify-content-center align-items-center vh-100 p-3">
+    <div
+      className={`container-fluid d-flex flex-column justify-content-center align-items-center vh-100 p-3 ${styles.aboutContainer}`}
+    >
       <div className="row w-100">
         <div className="col-md-1"></div>
         <div className="col-md-5 d-flex justify-content-center align-items-center">
-          <div className="container my-5">
+          <div className={`container my-5 ${styles.Abouttextbox}`}>
             <div className="card-body">
               <h2 className="mb-4">
                 ABOUT <br />
                 <b>CIT 8.0</b>
               </h2>
             </div>
-            <p className="lead">
+            <p className={`lead  `}>
               CIT 7.0 is one-of-a-kind opportunity for all aspiring students as
               we unveil exhilarating challenges of national standard over the
               realms of basic mathematical aptitude, logical & verbal reasoning,

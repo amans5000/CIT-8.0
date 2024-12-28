@@ -1,0 +1,11 @@
+.aboutContainer {
+  min-height: 100vh;
+  height: fit-content;
+  background-image: url("AboutBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+}

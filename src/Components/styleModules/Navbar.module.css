@@ -1,0 +1,21 @@
+.isteLogo {
+  height: 7rem;
+  margin-top: -10px;
+  width: auto;
+}
+.navElements {
+  background-color: #5f185a;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.navLinks {
+  display: flex;
+  gap: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+
+  color: aliceblue;
+}
