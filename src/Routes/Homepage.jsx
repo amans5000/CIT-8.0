@@ -8,6 +8,7 @@ import Navbar from "../Components/Navbar";
 import styles from "../Components/styleModules/Homepage.module.css";
 import CitTitle from "../Components/CitTitle";
 import FAQTitle from "../Components/FAQTitle";
+import AfterDotBgElement from "../Components/AfterDotBgElement";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <CitTitle />
       <About />
       <Schedule />
+      <AfterDotBgElement />
       <Prizes />
       <FAQTitle />
       <Faq />

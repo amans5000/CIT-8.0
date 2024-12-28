@@ -1,0 +1,6 @@
+.AfterDotBgElementContainer {
+  background-image: url("dotsBg.png");
+  background-repeat: repeat-x;
+  height: 20vh;
+  width: 100vw;
+}
