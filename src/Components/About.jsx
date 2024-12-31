@@ -1,6 +1,7 @@
 import styles from "./styleModules/About.module.css";
 const About = () => {
   return (
+     <div className={`container ${styles.container}`}>
     <div
       className={`container-fluid d-flex flex-column justify-content-center align-items-center vh-100 p-3 ${styles.aboutContainer}`}
     >
@@ -30,6 +31,7 @@ const About = () => {
         <div className="col-md-6"></div>
       </div>
     </div>
+     </div>
   );
 };
 

@@ -13,7 +13,7 @@ import AfterDotBgElement from "../Components/AfterDotBgElement";
 const Homepage = () => {
   return (
     <div className={styles.HomepageContainer}>
-      <Navbar />
+      
       <CitTitle />
       <About />
       <Schedule />

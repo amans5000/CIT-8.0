@@ -1,6 +1,7 @@
 import styles from "./styleModules/Schedule.module.css";
 const Schedule = () => {
   return (
+    <div className={`container ${styles.container}`}>
     <div
       className={`container-fluid d-flex flex-column justify-content-center align-items-center${styles.scheduleContainer}`}
     >
@@ -40,6 +41,7 @@ const Schedule = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

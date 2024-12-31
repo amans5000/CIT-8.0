@@ -9,3 +9,9 @@
   width: 100%;
   min-height: 100vh;
 }
+.container{
+    background-image: url("AboutBg.png");
+    min-width:100vw;
+    height:auto;
+  }
+

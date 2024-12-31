@@ -2,6 +2,7 @@ import styles from "./styleModules/Prizes.module.css";
 
 const Prizes = () => {
   return (
+    <div className={`container ${styles.container}`}>
     <div
       className={`container-fluid d-flex flex-column justify-content-center align-items-center vh-100 p-3 ${styles.prizeContainer}`}
     >
@@ -12,6 +13,7 @@ const Prizes = () => {
           <b>CIT 7.0</b>
         </h1>
       </div>
+    </div>
     </div>
   );
 };

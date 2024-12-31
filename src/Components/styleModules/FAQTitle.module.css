@@ -1,4 +1,9 @@
-.FAQTitleContainer {
+/* .FAQTitleContainer {
+  
+} */
+.container{
   background-image: url("FAQTitleBg.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  min-width:100%;
+  height:auto;
 }

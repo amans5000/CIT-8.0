@@ -2,6 +2,7 @@ import styles from "./styleModules/Sponsor.module.css";
 
 const Sponsor = () => {
   return (
+    <div className={`container ${styles.container}`}>
     <div
       className={`container-fluid d-flex flex-column justify-content-center align-items-center vh-100 ${styles.sponsorContainer}`}
     >
@@ -20,6 +21,7 @@ const Sponsor = () => {
           style={{ maxHeight: "100px" }}
         />
       </div>
+    </div>
     </div>
   );
 };

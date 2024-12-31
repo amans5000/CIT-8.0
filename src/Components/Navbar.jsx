@@ -2,37 +2,39 @@ import styles from "./styleModules/Navbar.module.css";
 const Navbar = () => {
   return (
     <>
-      <div className={`container-fluid ${styles.navElements} `}>
-        <a className="navbar-brand " href="#">
-          <img
-            src="whiteIste (1).png"
-            alt="Logo"
-            width="30"
-            height="24"
-            className={`d-inline-block align-text-top ${styles.isteLogo}`}
-          />
-        </a>
-        <div className={styles.navLinks}>
-          <a href="#" className="nav-link">
-            Home
+      <nav className={` ${styles.Nav}`}>
+        <div className={`container-fluid ${styles.navElements}`}>
+          <a className="navbar-brand" href="#">
+            <img
+              src="whiteIste (1).png"
+              alt="Logo"
+              width="30"
+              height="20"
+              className={`d-inline-block align-text-top ${styles.isteLogo}`}
+            />
           </a>
-          <a href="#" className="nav-link">
-            About
-          </a>
-          <a href="#" className="nav-link">
-            Instructions
-          </a>
-          <a href="#" className="nav-link">
-            FAQ
-          </a>
-          <a href="#" className="nav-link">
-            Sponsors
-          </a>
-          <a href="#" className="nav-link">
-            Contact Us
-          </a>
+          <div className={styles.navLinks}>
+            <a href="#" className="nav-link">
+              Home
+            </a>
+            <a href="#" className="nav-link">
+              About
+            </a>
+            <a href="#" className="nav-link">
+              Instructions
+            </a>
+            <a href="#" className="nav-link">
+              FAQ
+            </a>
+            <a href="#" className="nav-link">
+              Sponsors
+            </a>
+            <a href="#" className="nav-link">
+              Contact Us
+            </a>
+          </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

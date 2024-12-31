@@ -1,4 +1,10 @@
 .sponsorContainer {
-  background-color: rgb(0, 0, 0);
+  
   color: white;
+}
+.container{
+  background-color: rgb(0, 0, 0);
+  
+  min-width:100%;
+  height:auto;
 }

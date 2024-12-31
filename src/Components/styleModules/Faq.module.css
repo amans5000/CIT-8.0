@@ -1,0 +1,67 @@
+.container{
+    background-color: aliceblue;
+    
+    /* overflow:hidden; */
+    min-height: 100%;
+    min-width:100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    
+    
+  }
+  .container2{
+    
+    height:auto;
+    min-width: 100%;
+    
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    
+  }
+  .colDesign{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-weight:900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+    height: 30vh;
+    width: 25vw;
+    border:1px solid black;
+    box-shadow: 2px 2px 10px black ;
+    
+    
+
+  }
+  @media screen and (max-width: 1062px){
+    .container2{
+    
+        height:auto;
+        min-width: 100%;
+        
+        padding: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+        
+      }
+      .colDesign{
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        font-weight:900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin:20px;
+        height: auto;
+        width: 80vw;
+        border-radius: 2px solid  #5f185a;
+        
+        
+    
+      }
+    }

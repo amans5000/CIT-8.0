@@ -1,5 +1,9 @@
 .HomepageContainer {
-  background-color: #dccdc8;
-  box-sizing: border-box;
+  
+  overflow: hidden;
   width: 100%;
+  justify-items: center;
+  box-sizing: border-box;
+  
+  
 }

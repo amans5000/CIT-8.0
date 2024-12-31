@@ -1,5 +1,10 @@
 .prizeContainer {
-  background-image: url("PrizesBg.png");
+  
   background-size: cover;
   color: white;
+}
+.container{
+  background-image: url("PrizesBg.png");
+  min-width:100vw;
+  height:auto;
 }

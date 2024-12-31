@@ -1,7 +1,13 @@
+.Nav{
+  min-width: 100%;
+  
+
+}
 .isteLogo {
-  height: 7rem;
+  height: auto;
   margin-top: -10px;
-  width: auto;
+  width:5rem;
+
 }
 .navElements {
   background-color: #5f185a;
@@ -10,12 +16,14 @@
   padding-left: 10px;
   padding-right: 30px;
   padding-top: 20px;
+  
+  
 }
 .navLinks {
   display: flex;
-  gap: 40px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 30px;
+  gap:30px;
+  
+  font-size: 20px;
+  color: white;
 
-  color: aliceblue;
 }
